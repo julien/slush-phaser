@@ -2,13 +2,14 @@
   "name": "slush-phaser",
   "readme": " ",
   
-  "version": "0.0.2",
+  "version": "0.0.3",
   
   "description": "A slush generator to create Phaser games",
   
   "main": "slushfile.js",
   
   "scripts": {
+    "pre-publish": "npm prune",
     "test": "echo \"No tests\""
   },
 
@@ -38,6 +39,7 @@
     "gulp-install": "latest",
     "gulp-template": "latest",
     "gulp-util": "latest",
-    "inquirer": "latest"
+    "inquirer": "latest",
+    "underscore.string": "latest"
   }
 }

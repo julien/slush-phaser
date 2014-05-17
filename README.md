@@ -3,6 +3,8 @@ slush-phaser
 
 > A [slush](http://klei.github.io/slush/) generator for [Phaser](http://www.phaser.io)
 
+[![NPM](https://nodei.co/npm/slush-phaser.png?downloads=true&stars=true)](https://nodei.co/npm/slush-phaser/)
+
 ## Installation
 
 Install `slush-phaser` globally:
