@@ -1,42 +1,32 @@
 {
   "name": "slush-phaser",
   "readme": " ",
-  
   "version": "0.0.3",
-  
   "description": "A slush generator to create Phaser games",
-  
   "main": "slushfile.js",
-  
   "scripts": {
     "pre-publish": "npm prune",
     "test": "echo \"No tests\""
   },
-
   "repository": {
     "type": "git",
     "url": "git://github.com/julien/slush-phaser"
   },
-
   "keywords": [
     "slushgenerator",
     "phaser"
   ],
-
   "author": "Julien Castelain <jcastelain@gmail.com>",
-  
   "license": "MIT",
-  
   "bugs": {
     "url": "https://github.com/julien/slush-phaser/issues"
   },
-  
   "homepage": "https://github.com/julien/slush-phaser",
-
   "dependencies": {
     "gulp": "latest",
     "gulp-conflict": "latest",
     "gulp-install": "latest",
+    "gulp-rename": "^1.2.0",
     "gulp-template": "latest",
     "gulp-util": "latest",
     "inquirer": "latest",

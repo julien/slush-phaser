@@ -1,19 +1,19 @@
-var gulp = require('gulp')
-  , gutil = require('gulp-util')
-  , clean = require('gulp-clean')
-  , concat = require('gulp-concat')
-  , rename = require('gulp-rename')
-  , minifycss = require('gulp-minify-css')
-  , minifyhtml = require('gulp-minify-html')
-  , processhtml = require('gulp-processhtml')
-  , jshint = require('gulp-jshint')
-  , uglify = require('gulp-uglify')
-  , connect = require('gulp-connect')
-  , paths;
+var gulp = require('gulp'),
+  gutil = require('gulp-util'),
+  clean = require('gulp-rimraf'),
+  concat = require('gulp-concat'),
+  rename = require('gulp-rename'),
+  minifycss = require('gulp-minify-css'),
+  minifyhtml = require('gulp-minify-html'),
+  processhtml = require('gulp-processhtml'),
+  jshint = require('gulp-jshint'),
+  uglify = require('gulp-uglify'),
+  connect = require('gulp-connect'),
+  paths;
 
 paths = {
   assets: 'src/assets/**/*',
-  css:    'src/css/*.css', 
+  css:    'src/css/*.css',
   libs:   [
     'src/bower_components/phaser-official/build/phaser.min.js'
   ],
